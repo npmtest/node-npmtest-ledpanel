@@ -1,6 +1,7 @@
 # npmtest-ledpanel
 
-test coverage for  [ledpanel (v1.0.4)](https://github.com/netbeast/ledpanel#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ledpanel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ledpanel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ledpanel.svg)](https://travis-ci.org/npmtest/node-npmtest-ledpanel)
+#### basic test coverage for  [ledpanel (v1.0.4)](https://github.com/netbeast/ledpanel#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ledpanel.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ledpanel) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ledpanel.svg)](https://travis-ci.org/npmtest/node-npmtest-ledpanel)
+
 #### Control Adafruit 8x8 bicolor led Panel on the Raspberry Pi
 
 [![NPM](https://nodei.co/npm/ledpanel.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ledpanel)
@@ -9,7 +10,7 @@ test coverage for  [ledpanel (v1.0.4)](https://github.com/netbeast/ledpanel#read
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ledpanel/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ledpanel/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ledpanel/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ledpanel/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ledpanel/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ledpanel/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ledpanel/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ledpanel/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ledpanel/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ledpanel/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ledpanel/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ledpanel/build/coverage.html/index.html)
 
@@ -82,7 +83,8 @@ test coverage for  [ledpanel (v1.0.4)](https://github.com/netbeast/ledpanel#read
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.4"
+    "version": "1.0.4",
+    "bin": {}
 }
 ```
 
